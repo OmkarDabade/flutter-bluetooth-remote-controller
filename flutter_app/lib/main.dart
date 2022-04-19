@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'HomePage.dart';
+import 'homepage.dart';
 
 void main() {
   runApp(
@@ -7,7 +7,7 @@ void main() {
       debugShowCheckedModeBanner: false,
       initialRoute: "/",
       routes: {
-        "/": (context) => HomePage(),
+        "/": (context) => const HomePage(),
       },
     ),
   );
